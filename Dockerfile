@@ -1,7 +1,7 @@
 FROM Jmiqq/userbot:alpine
 
 #clonning repo 
-RUN git clone https://github.com/Kareemalfehr/userbot/tree/jmthon /root/userbot
+RUN git clone https://github.com/Kareemalfehr/userbot /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
